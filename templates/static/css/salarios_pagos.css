@@ -1,0 +1,244 @@
+.form-salarios-pagos{
+    height: 180px;
+    width: 600px;
+    border-radius: 7px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 20px 0px #00000026;
+    margin: 0 auto;
+    padding:15px 25px 15px 25px;
+    
+} 
+
+.form-salarios-pagos input{
+    color:black;
+}
+
+.form-salarios-pagos ::placeholder{
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #3333334D;
+
+}
+
+.form-salarios-pagos label,input,select{
+    display: flex;
+}
+
+.form-salarios-pagos .format-folha{
+    display: flex;
+    justify-content: center;
+}
+.form-salarios-pagos label{
+    color: #333333;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    height: 19px;
+    width: 53px;
+    border-radius: nullpx;
+
+}
+.form-salarios-pagos .n-folha label{
+    display: flex;
+    padding-right: 10px;
+    position:relative;
+    top:5px;
+   
+}
+.form-salarios-pagos .n-folha label:nth-child(3){
+    display: flex;
+    justify-content: center;
+}
+.form-salarios-pagos .segunda-linha label{
+    margin:auto;
+    display: flex;
+    justify-content: center;
+}
+
+.form-salarios-pagos .terceira-linha label:nth-child(3){
+    margin:auto;
+    display: flex;
+    justify-content: center;
+}
+.form-salarios-pagos .terceira-linha label:nth-child(1){
+    margin:auto;
+    display: flex;
+}
+.form-salarios-pagos label > span{
+    color:red;
+}
+.form-salarios-pagos .label-acao{
+    justify-content: center;
+}
+
+.form-salarios-pagos > input::placeholder{
+    height: 19px;
+    width: 67px;
+    left: 653px;
+    top: 166px;
+    border-radius: undefinedpx;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #3333334D;
+}
+.form-salarios-pagos .btn-geral{
+    width:620px;
+    justify-content: end;
+    
+}
+
+.form-salarios-pagos select{
+    height: 30px;
+    width: 100px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    background: #E9E9E9;
+    border:none;
+    outline: 0;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #3333334D;
+}
+.form-salarios-pagos  .label-curso{
+    padding-left: 18px;
+}
+
+
+.tabela-salarios-pagos{
+
+    height: 250px;
+    width: 800px;
+    border-radius: 10px;
+    margin:0 auto;
+    background: #FFFFFF;
+    border: 1px solid #33333380;
+    margin-top:100px;
+    overflow: scroll;
+    
+}
+
+.tabela-salarios-pagos tr:nth-child(even){
+    background-color:#C4C4C44D;
+
+}
+
+.tabela-salarios-pagos .checkbox{
+    display: none;
+}
+
+.tabela-salarios-pagos .checkbox + .label-check:before{
+    content:'';
+    width:27px;
+    height: 27px;
+    display: inline-block;
+    border:3px solid white;
+    background-color:#bbbbbb;
+}
+
+.tabela-salarios-pagos .checkbox:checked + .label-check:before{
+    content:'';
+    width:27px;
+    height: 27px;
+    display: inline-block;
+    background: #33333380;
+
+}
+
+
+.tabela-salarios-pagos .caixa{
+    display: none;
+}
+.tabela-salarios-pagos .caixa + .label-caixa:before{
+    content:'';
+    width:27px;
+    height: 27px;
+    display: inline-block;
+    border:3px solid #33333380;
+    background-color:white;
+    cursor: pointer;
+}
+
+.tabela-salarios-pagos .caixa:checked + .label-caixa:before{
+    content:'';
+    width:27px;
+    height: 27px;
+    display: inline-block;
+    background-color:#33333380;
+    cursor: pointer;
+}    
+
+
+
+
+.tabela-salarios-pagos::-webkit-scrollbar{
+    overflow: hidden;
+    border: none;
+    width: 0px;
+}  
+
+.tabela-salarios-pagos .tr-colunas{
+    height: 30px;
+    width: 420px;
+    left: 575px;
+    top: 379px;
+    border-radius: 10px;
+    background: #BBBBBB;
+}    
+
+.tabela-salarios-pagos th,td{
+    text-align: center;
+}
+
+.tabela-salarios-pagos td{
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    /* text-align: left; */
+}
+.tabela-salarios-pagos th{
+    height: 19px;
+    width: 41px;
+    left: 625px;
+    top: 386px;
+    border-radius: nullpx;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+
+}
+
+.tabela-salarios-pagos .tr-colunas th:nth-child(1){
+    border-top-left-radius: 10px;
+   
+}
+.tabela-salarios-pagos > .tr-colunas > th:nth-child(6){
+    border-top-right-radius: 10px;
+   
+}

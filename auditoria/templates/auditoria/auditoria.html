@@ -1,0 +1,135 @@
+{% extends 'base.html'%}
+{%load static%}
+
+{%block auditoria%}
+         <div class="form-auditoria">
+              <form>
+                    <div class="form-row">
+                        <label class="label-span col-2">Usuário</label>
+                        <input class="col-4" type="text" placeholder="@exemplo">  
+                        <label class="label-span col-2 label-acao">Ação</label>
+                        <select class="form-select col-4" aria-label="Default select example">
+                            <option selected></option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+
+                    </div>
+                     <div class="form-row  mt-3">
+                        <label class="col-5">Data de Ínicio/Término<span>*</span></label>                   
+                    </div>
+                    <div class="form-row padding-data py-3">
+                        <input type="text" class="col-1" placeholder="DD">
+                        <input type="text" class="col-1" placeholder="MM">
+                        <input type="text" class="col-2" placeholder="AAAA">
+                        <div class="col-1"><hr></div>
+                        <input type="text" class="col-1" placeholder="DD">
+                        <input type="text" class="col-1" placeholder="MM">
+                        <input type="text" class="col-2" placeholder="AAAA">
+                    </div>
+                    
+                    
+                 
+                    
+                </form>
+                 <div class="botao-procurar btn-indice btn-salario">
+                      <button type="submit" class="btn btn-novo"> <img  class="" src="{% static 'icon/novo.svg' %}"></button>
+                      <button type="submit" class="btn btn-procurar"> <img  class="" src="{% static 'icon/icon-procurar.svg' %}"></button>
+                  </div>
+        </div>
+
+                 
+                   <div class="tabela-indice">
+                        <table class="table">
+                            <thead class="tr-colunas">
+                                <tr>
+                                <th scope="col">Usuario</th>
+                                <th scope="col">Ação</th>
+                                <th scope="col">Data</th>
+                                <th scope="col"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                <td scope="row">1,100</td>
+                                <td>01/01/2019</td>
+                                <td>31/12/2021</td>
+                                <td>
+                                    <div class="icones-edit-del">
+                                        <div class="icon-edit"><img src="{% static 'icon/icon-edit.svg'%}"></div>
+                                        <div class="icon-del"><img src="{% static 'icon/icon-del.svg'%}"></div>
+                                    </div>
+                                </td>
+                                </tr>
+                                <tr>
+                                 <td scope="row">1,100</td>
+                                <td>01/01/2019</td>
+                                <td>31/12/2021</td>
+                                <td>
+                                      <div class="icones-edit-del">
+                                        <div class="icon-edit"><img src="{% static 'icon/icon-edit.svg'%}"></div>
+                                        <div class="icon-del"><img src="{% static 'icon/icon-del.svg'%}"></div>
+                                    </div>
+                                </td>
+                                </tr>
+                                <tr>
+                                <td scope="row">1,100</td>
+                                <td>01/01/2019</td>
+                                <td>31/12/2021</td>
+                                <td>
+                                      <div class="icones-edit-del">
+                                        <div class="icon-edit"><img src="{% static 'icon/icon-edit.svg'%}"></div>
+                                        <div class="icon-del"><img src="{% static 'icon/icon-del.svg'%}"></div>
+                                    </div>
+                                </td>
+                                </tr>
+                                <tr>
+                                 <td scope="row">1,100</td>
+                                <td>01/01/2019</td>
+                                <td>31/12/2021</td>
+                                <td>
+                                      <div class="icones-edit-del">
+                                        <div class="icon-edit"><img src="{% static 'icon/icon-edit.svg'%}"></div>
+                                        <div class="icon-del"><img src="{% static 'icon/icon-del.svg'%}"></div>
+                                    </div>
+                                </td>
+                                </tr>
+                                <tr>
+                                 <td scope="row">1,100</td>
+                                <td>01/01/2019</td>
+                                <td>31/12/2021</td>
+                                <td>
+                                      <div class="icones-edit-del">
+                                        <div class="icon-edit"><img src="{% static 'icon/icon-edit.svg'%}"></div>
+                                        <div class="icon-del"><img src="{% static 'icon/icon-del.svg'%}"></div>
+                                    </div>
+                                </td>
+                                </tr>
+                                <tr>
+                                <td scope="row">1,100</td>
+                                <td>01/01/2019</td>
+                                <td>31/12/2021</td>
+                                <td>
+                                      <div class="icones-edit-del">
+                                        <div class="icon-edit"><img src="{% static 'icon/icon-edit.svg'%}"></div>
+                                        <div class="icon-del"><img src="{% static 'icon/icon-del.svg'%}"></div>
+                                    </div>
+                                </td>
+                                </tr>
+                                <tr>
+                               <td scope="row">1,100</td>
+                                <td>01/01/2019</td>
+                                <td>31/12/2021</td>
+                                <td>
+                                      <div class="icones-edit-del">
+                                        <div class="icon-edit"><img src="{% static 'icon/icon-edit.svg'%}"></div>
+                                        <div class="icon-del"><img src="{% static 'icon/icon-del.svg'%}"></div>
+                                    </div>
+                                </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                 </div>           
+{%endblock%}
+

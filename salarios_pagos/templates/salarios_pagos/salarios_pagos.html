@@ -1,0 +1,129 @@
+{% extends 'base.html'%}
+{%load static%}
+
+{%block salarios_pagos%}
+     <div class="form-salarios-pagos">
+              <form>
+                 <div class="form-row padding-empresa n-folha">
+                        <label class="label-span col-2">Empresa</label>
+                          <select class="form-select col-4" aria-label="Default select example">
+                            <option selected=""></option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>    
+                        <label class="col-3">N° da Folha<span>*</span></label>
+                        <input type="text" class="col-3" placeholder="00000000">   
+                    </div>
+                    <div class="form-row  mt-3 segunda-linha" >
+                        <label class="col-1">Ano<span>*</span></label>
+                        <input type="text" class="col-2" placeholder="AAAA">                   
+                        <label class="col-1">Mês<span>*</span></label>
+                          <select class="col-2" aria-label="Default select example">
+                              <option selected=""></option>
+                              <option value="1">Julho</option>
+                              <option value="2">Novembro</option>
+                              <option value="3">Three</option>
+                          </select>                     
+                        <label class="col-3">Contrato<span>*</span></label>
+                        <input type="text" class="col-3" placeholder="AAAA">                   
+                    </div>
+                   <div class="form-row my-3 terceira-linha">
+                      <label for="cnpj" class=" col-3">Tipo de Folha</label>
+                        <select class="input_status col-3" aria-label="Default select example">
+                          <option selected=""></option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                      </select>
+                      <label for="cnpj" class=" col-3">Curso</label>
+                      <select class="input_status col-3" aria-label="Default select example">
+                        <option selected=""></option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                  </div>
+                    
+                 
+                    
+                </form>
+                 <div class=" btn-geral botao-procurar btn-indice btn-salario btn-folha btn-valor-receber">
+                      <button type="submit" class="btn btn-novo"> <img  class="" src="{% static 'icon/novo.svg' %}"></button>
+                      <button type="submit" class="btn btn-procurar"> <img  class="" src="{% static 'icon/icon-procurar.svg' %}"></button>
+                  </div>
+        </div>
+
+                 
+                   <div class="tabela-salarios-pagos">
+                        <table class="table">
+                            <thead class="tr-colunas">
+                                <tr >
+                                  <th scope="col"><input  id="checkbox1" id="check" type="checkbox" class="checkbox"><label  class="label-check"for="checkbox1"></label></th>
+                                  <th scope="col">Período</th>
+                                  <th scope="col">N° da Folha</th>
+                                  <th scope="col">Status</th>
+                                  <th scope="col">Empresa</th>
+                                  <th scope="col">Tipo de Contrato</th>
+                                  <th scope="col">Contrato</th>
+                                  <th scope="col">Curso</th>
+                                  <th scope="col">Instituição</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                <td scope="row"><input id="check1" type="checkbox" class="caixa"><label class="label-caixa" for="check1"></label></td>
+                                <td>02/2019</td>
+                                <td>2</td>
+                                <td>Finalizada</td>
+                                <td>Companhia Estadual</td>
+                                <td>C</td>
+                                <td>087/2016</td>
+                                <td>-</td>
+                                <td>-</td>
+                                </tr>
+
+                                <tr>
+                                <td scope="row"><input id="check2" type="checkbox" class="caixa"><label class="label-caixa" for="check2"></label></td>
+                                <td>02/2019</td>
+                                <td>2</td>
+                                <td>Finalizada</td>
+                                <td>Companhia Estadual</td>
+                                <td>C</td>
+                                <td>087/2016</td>
+                                <td>-</td>
+                                <td>-</td>
+                                </tr>
+
+                                <tr>
+                                <td scope="row"><input id="check3" type="checkbox" class="caixa"><label class="label-caixa" for="check3"></label></td>
+                                <td>02/2019</td>
+                                <td>2</td>
+                                <td>Finalizada</td>
+                                <td>Companhia Estadual</td>
+                                <td>C</td>
+                                <td>087/2016</td>
+                                <td>-</td>
+                                <td>-</td>
+                                </tr>
+
+                                <tr>
+                                <td scope="row"><input id="check4" type="checkbox" class="caixa"><label class="label-caixa" for="check4"></label></td>
+                                <td>02/2019</td>
+                                <td>2</td>
+                                <td>Finalizada</td>
+                                <td>Companhia Estadual</td>
+                                <td>C</td>
+                                <td>087/2016</td>
+                                <td>-</td>
+                                <td>-</td>
+                                </tr>
+
+                             
+                              
+
+                               
+                            </tbody>
+                        </table>
+                 </div>          
+{%endblock%}

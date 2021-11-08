@@ -1,0 +1,78 @@
+.form-auditoria{
+    height: 186px;
+    width: 507px;
+    border-radius: 7px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 20px 0px #00000026;
+    margin: 55px auto;
+    padding:30px;
+} 
+
+.form-auditoria label,input,select{
+    display: flex;
+}
+
+.form-auditoria .format-auditoria{
+    display: flex;
+    justify-content: center;
+}
+.form-auditoria label{
+    color: #333333;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    height: 19px;
+    width: 53px;
+    border-radius: nullpx;
+
+}
+.form-auditoria label > span{
+    color:red;
+}
+.form-auditoria .label-acao{
+    justify-content: center;
+}
+
+.form-auditoria > input::placeholder{
+    height: 19px;
+    width: 67px;
+    left: 653px;
+    top: 166px;
+    border-radius: undefinedpx;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #3333334D;
+}
+ .btn-salario{
+    width:516px;
+    justify-content: end;
+    margin-right: 14px;
+}
+
+.form-auditoria select{
+    height: 30px;
+    width: 100px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    background: #E9E9E9;
+    border:none;
+    outline: 0;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #3333334D;
+}

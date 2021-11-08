@@ -1,0 +1,136 @@
+{% extends 'base.html' %}
+{% load static%}
+
+{%block indice%}
+
+      <div class="form-indice">
+              <form>
+                  <div class="form-row ">
+            
+                    <label for="name" class=" col-4">Mês<span>*</span></label>
+                    <select class="col-8" aria-label="Default select example">
+                        <option selected></option>
+                        <option value="1">Janeiro</option>
+                        <option value="2">Fevereiro</option>
+                        <option value="4">Março</option>
+                        <option value="5">Abril</option>
+                        <option value="6">Junho</option>
+                        <option value="7">Julho</option>
+                        <option value="8">Agosto</option>
+                        <option value="9">Setembro</option>
+                        <option value="10">Outubro</option>
+                        <option value="11">Novembro</option>
+                        <option value="12">Dezembro</option>
+                    </select>
+                  </div>
+                  <div class="form-row my-3">
+                      <label for="cnpj" class=" col-4">Ano<span>*</span></label>
+                      <input type="text" class="col-8"  placeholder="AAAA">
+                  </div>
+
+                   <div class="form-row ">
+                    <label for="name" class="col-4 ">Índice<span>*</pan></label>
+                    <input type="text" class=" ml-2 col-7">
+                  </div>
+                  <div class="botao-procurar btn-indice">
+                      <button type="submit" class="btn btn-novo"> <img  class="" src="{% static 'icon/novo.svg' %}"></button>
+                      <button type="submit" class="btn btn-procurar"> <img  class="" src="{% static 'icon/icon-procurar.svg' %}"></button>
+                  </div>
+                  </div>
+                </form>
+                 <div class="tabela-indice">
+                        <table class="table">
+                            <thead class="tr-colunas">
+                                <tr>
+                                <th scope="col">Índice</th>
+                                <th scope="col">Mês</th>
+                                <th scope="col">Ano</th>
+                                <th scope="col"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                <td scope="row">0,6858</td>
+                                <td>Janeiro</td>
+                                <td>1994</td>
+                                <td>
+                                    <div class="icones-edit-del">
+                                        <div class="icon-edit"><img src="{% static 'icon/icon-edit.svg'%}"></div>
+                                        <div class="icon-del"><img src="{% static 'icon/icon-del.svg'%}"></div>
+                                    </div>
+                                </td>
+                                </tr>
+                                <tr>
+                                <td scope="row">0,6435</td>
+                                <td>Fevereiro</td>
+                                <td>2018</td>
+                                <td>
+                                      <div class="icones-edit-del">
+                                        <div class="icon-edit"><img src="{% static 'icon/icon-edit.svg'%}"></div>
+                                        <div class="icon-del"><img src="{% static 'icon/icon-del.svg'%}"></div>
+                                    </div>
+                                </td>
+                                </tr>
+                                <tr>
+                                <td scope="row">0,6609</td>
+                                <td >Março</td>
+                                <td>1994</td>
+                                <td>
+                                      <div class="icones-edit-del">
+                                        <div class="icon-edit"><img src="{% static 'icon/icon-edit.svg'%}"></div>
+                                        <div class="icon-del"><img src="{% static 'icon/icon-del.svg'%}"></div>
+                                    </div>
+                                </td>
+                                </tr>
+                                <tr>
+                                <td scope="row">0,6583</td>
+                                <td >Abril</td>
+                                <td>2018</td>
+                                <td>
+                                      <div class="icones-edit-del">
+                                        <div class="icon-edit"><img src="{% static 'icon/icon-edit.svg'%}"></div>
+                                        <div class="icon-del"><img src="{% static 'icon/icon-del.svg'%}"></div>
+                                    </div>
+                                </td>
+                                </tr>
+                                <tr>
+                                <td scope="row">0,7558</td>
+                                <td >Maio</td>
+                                <td>1994</td>
+                                <td>
+                                      <div class="icones-edit-del">
+                                        <div class="icon-edit"><img src="{% static 'icon/icon-edit.svg'%}"></div>
+                                        <div class="icon-del"><img src="{% static 'icon/icon-del.svg'%}"></div>
+                                    </div>
+                                </td>
+                                </tr>
+                                <tr>
+                                <td scope="row">0,6629</td>
+                                <td >Junho</td>
+                                <td>2018</td>
+                                <td>
+                                      <div class="icones-edit-del">
+                                        <div class="icon-edit"><img src="{% static 'icon/icon-edit.svg'%}"></div>
+                                        <div class="icon-del"><img src="{% static 'icon/icon-del.svg'%}"></div>
+                                    </div>
+                                </td>
+                                </tr>
+                                <tr>
+                                <td scope="row">0,7053</td>
+                                <td >Julho</td>
+                                <td>1994</td>
+                                <td>
+                                      <div class="icones-edit-del">
+                                        <div class="icon-edit"><img src="{% static 'icon/icon-edit.svg'%}"></div>
+                                        <div class="icon-del"><img src="{% static 'icon/icon-del.svg'%}"></div>
+                                    </div>
+                                </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                 </div>            
+           </div> 
+
+          
+
+{%endblock%}

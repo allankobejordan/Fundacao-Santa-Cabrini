@@ -1,0 +1,272 @@
+.form-beneficiarios{
+    height: 275px;
+    width: 550px;
+    border-radius: 7px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 20px 0px #00000026;
+    margin: 0 auto;
+    padding:23px;
+    
+} 
+
+
+.form-beneficiarios input{
+    color:black;
+}
+
+.form-beneficiarios ::placeholder{
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #3333334D;
+
+}
+
+.form-beneficiarios label,input,select{
+    display: flex;
+    
+}
+
+.form-beneficiarios .form-row >  label{
+    margin:0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.form-beneficiarios label{
+    color: #333333;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 53px;
+    border-radius: nullpx;
+    display: flex;
+    align-items: end;
+
+}
+
+.form-beneficiarios .label-contrato{
+    display: flex;
+    justify-content: center;
+}
+.form-beneficiarios .n-folha label{
+    display: flex;
+    padding-right: 10px;
+    position:relative;
+    top:5px;
+   
+}
+.form-beneficiarios .n-folha label:nth-child(3){
+    display: flex;
+    justify-content: center;
+}
+.form-beneficiarios .segunda-linha label{
+    margin:auto;
+    display: flex;
+    justify-content: center;
+}
+
+.form-beneficiarios .terceira-linha label:nth-child(3){
+    margin:auto;
+    display: flex;
+    justify-content: center;
+}
+.form-beneficiarios .terceira-linha label:nth-child(1){
+    margin:auto;
+    display: flex;
+}
+.form-beneficiarios label > span{
+    color:red;
+}
+.form-beneficiarios .label-acao{
+    justify-content: center;
+}
+
+.form-beneficiarios > input::placeholder{
+    height: 19px;
+    width: 67px;
+    left: 653px;
+    top: 166px;
+    border-radius: undefinedpx;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #3333334D;
+}
+.form-beneficiarios .btn-geral{
+    
+    width:550px;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right:20px;  
+}
+
+.form-beneficiarios .contrato::placeholder{
+    text-align: start;
+}
+
+
+.form-beneficiarios select{
+    height: 30px;
+    width: 100px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    background: #E9E9E9;
+    border:none;
+    outline: 0;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #3333334D;
+}
+
+.form-beneficiarios  .format-label{
+    position:relative;
+    right:5px;
+}
+.form-beneficiarios  .label-curso{
+    padding-left: 18px;
+}
+
+
+.tabela-beneficiarios{
+    color: #333333;
+    height: 140px;
+    width: 980px;
+    border-radius: 10px;
+    margin:0 auto;
+    background: #FFFFFF;
+    border: 1px solid #33333380;
+    margin-top:100px;
+    overflow: scroll;
+    
+}
+
+.tabela-beneficiarios tr:nth-child(even){
+    background-color:#C4C4C44D;
+
+}
+
+.tabela-beneficiarios .checkbox{
+    display: none;
+}
+
+.tabela-beneficiarios .checkbox + .label-check:before{
+    content:'';
+    width:27px;
+    height: 27px;
+    display: inline-block;
+    border:3px solid white;
+    background-color:#bbbbbb;
+}
+
+.tabela-beneficiarios .checkbox:checked + .label-check:before{
+    content:'';
+    width:27px;
+    height: 27px;
+    display: inline-block;
+    background: #33333380;
+
+}
+
+
+.tabela-beneficiarios .caixa{
+    display: none;
+}
+.tabela-beneficiarios .caixa + .label-caixa:before{
+    content:'';
+    width:27px;
+    height: 27px;
+    display: inline-block;
+    border:3px solid #33333380;
+    background-color:white;
+    cursor: pointer;
+}
+
+.tabela-beneficiarios .caixa:checked + .label-caixa:before{
+    content:'';
+    width:27px;
+    height: 27px;
+    display: inline-block;
+    background-color:#33333380;
+    cursor: pointer;
+}    
+
+
+
+
+.tabela-beneficiarios::-webkit-scrollbar{
+    overflow: hidden;
+    border: none;
+    width: 0px;
+}  
+
+.tabela-beneficiarios .tr-colunas{
+    height: 30px;
+    width: 420px;
+    left: 575px;
+    top: 379px;
+    border-radius: 10px;
+    background: #BBBBBB;
+}    
+
+.tabela-beneficiarios th,td{
+    text-align: center;
+}
+
+.tabela-beneficiarios td{
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #333333;
+
+    /* text-align: left; */
+}
+.tabela-beneficiarios th{
+    height: 19px;
+    width: 41px;
+    left: 625px;
+    top: 386px;
+    border-radius: nullpx;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+
+}
+
+.tabela-beneficiarios .tr-colunas th:nth-child(1){
+    border-top-left-radius: 10px;
+   
+}
+.tabela-beneficiarios > .tr-colunas > th:nth-child(6){
+    border-top-right-radius: 10px;
+   
+}

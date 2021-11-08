@@ -1,0 +1,272 @@
+.form-dias_remidos{
+    height: 75px;
+    width: 440px;
+    border-radius: 7px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 20px 0px #00000026;
+    margin: 100px auto;
+    
+  
+} 
+
+
+.form-dias_remidos input{
+    color:black;
+}
+
+.form-dias_remidos ::placeholder{
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #3333334D;
+
+}
+
+.form-dias_remidos label,input,select{
+    display: flex;
+    
+}
+
+.form-dias_remidos .form-row >  label{
+    margin:0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.form-dias_remidos label{
+    color: #333333;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 53px;
+    border-radius: nullpx;
+    display: flex;
+    align-items: end;
+
+}
+
+.form-dias_remidos .label-contrato{
+    display: flex;
+    justify-content: center;
+}
+.form-dias_remidos .n-folha label{
+    display: flex;
+    padding-right: 10px;
+    position:relative;
+    top:5px;
+   
+}
+.form-dias_remidos .n-folha label:nth-child(3){
+    display: flex;
+    justify-content: center;
+}
+.form-dias_remidos .segunda-linha label{
+    margin:auto;
+    display: flex;
+    justify-content: center;
+}
+
+.form-dias_remidos .terceira-linha label:nth-child(3){
+    margin:auto;
+    display: flex;
+    justify-content: center;
+}
+.form-dias_remidos .terceira-linha label:nth-child(1){
+    margin:auto;
+    display: flex;
+}
+.form-dias_remidos label > span{
+    color:red;
+}
+.form-dias_remidos .label-acao{
+    justify-content: center;
+}
+
+.form-dias_remidos > input::placeholder{
+    height: 19px;
+    width: 67px;
+    left: 653px;
+    top: 166px;
+    border-radius: undefinedpx;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #3333334D;
+}
+.form-dias_remidos .btn-geral{
+    
+    width:440px;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right:0px;  
+}
+
+.form-dias_remidos .contrato::placeholder{
+    text-align: start;
+}
+
+
+.form-dias_remidos select{
+    height: 30px;
+    width: 100px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    background: #E9E9E9;
+    border:none;
+    outline: 0;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #3333334D;
+}
+
+.form-dias_remidos  .format-label{
+    position:relative;
+    right:5px;
+}
+.form-dias_remidos  .label-curso{
+    padding-left: 18px;
+}
+
+
+.tabela-dias_remidos{
+    color: #333333;
+    height: 140px;
+    width: 980px;
+    border-radius: 10px;
+    margin:0 auto;
+    background: #FFFFFF;
+    border: 1px solid #33333380;
+    margin-top:100px;
+    overflow: scroll;
+    
+}
+
+.tabela-dias_remidos tr:nth-child(even){
+    background-color:#C4C4C44D;
+
+}
+
+.tabela-dias_remidos .checkbox{
+    display: none;
+}
+
+.tabela-dias_remidos .checkbox + .label-check:before{
+    content:'';
+    width:27px;
+    height: 27px;
+    display: inline-block;
+    border:3px solid white;
+    background-color:#bbbbbb;
+}
+
+.tabela-dias_remidos .checkbox:checked + .label-check:before{
+    content:'';
+    width:27px;
+    height: 27px;
+    display: inline-block;
+    background: #33333380;
+
+}
+
+
+.tabela-dias_remidos .caixa{
+    display: none;
+}
+.tabela-dias_remidos .caixa + .label-caixa:before{
+    content:'';
+    width:27px;
+    height: 27px;
+    display: inline-block;
+    border:3px solid #33333380;
+    background-color:white;
+    cursor: pointer;
+}
+
+.tabela-dias_remidos .caixa:checked + .label-caixa:before{
+    content:'';
+    width:27px;
+    height: 27px;
+    display: inline-block;
+    background-color:#33333380;
+    cursor: pointer;
+}    
+
+
+
+
+.tabela-dias_remidos::-webkit-scrollbar{
+    overflow: hidden;
+    border: none;
+    width: 0px;
+}  
+
+.tabela-dias_remidos .tr-colunas{
+    height: 30px;
+    width: 420px;
+    left: 575px;
+    top: 379px;
+    border-radius: 10px;
+    background: #BBBBBB;
+}    
+
+.tabela-dias_remidos th,td{
+    text-align: center;
+}
+
+.tabela-dias_remidos td{
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #333333;
+
+    /* text-align: left; */
+}
+.tabela-dias_remidos th{
+    height: 19px;
+    width: 41px;
+    left: 625px;
+    top: 386px;
+    border-radius: nullpx;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+
+}
+
+.tabela-dias_remidos .tr-colunas th:nth-child(1){
+    border-top-left-radius: 10px;
+   
+}
+.tabela-dias_remidos > .tr-colunas > th:nth-child(6){
+    border-top-right-radius: 10px;
+   
+}

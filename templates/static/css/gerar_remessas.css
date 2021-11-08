@@ -1,0 +1,281 @@
+.form-gerar_remessas{
+    height: 139px;
+    width: 600px;
+    border-radius: 7px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 20px 0px #00000026;
+    margin: 0 auto;
+    padding:15px;
+    
+} 
+
+
+.form-gerar_remessas input{
+    color:black;
+}
+
+.form-gerar_remessas ::placeholder{
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #3333334D;
+
+}
+
+.form-gerar_remessas label,input,select{
+    display: flex;
+    
+}
+
+.form-gerar_remessas .form-row >  label{
+    margin:0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.form-gerar_remessas label{
+    color: #333333;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 53px;
+    border-radius: nullpx;
+    display: flex;
+    align-items: end;
+
+}
+
+.form-gerar_remessas .label-contrato{
+    display: flex;
+    justify-content: center;
+}
+.form-gerar_remessas .n-folha label{
+    display: flex;
+    padding-right: 10px;
+    position:relative;
+    top:5px;
+   
+}
+.form-gerar_remessas .n-folha label:nth-child(3){
+    display: flex;
+    justify-content: center;
+}
+.form-gerar_remessas .segunda-linha label{
+    margin:auto;
+    display: flex;
+    justify-content: center;
+}
+
+.form-gerar_remessas .terceira-linha label:nth-child(3){
+    margin:auto;
+    display: flex;
+    justify-content: center;
+}
+.form-gerar_remessas .terceira-linha label:nth-child(1){
+    margin:auto;
+    display: flex;
+}
+.form-gerar_remessas label > span{
+    color:red;
+}
+.form-gerar_remessas .label-acao{
+    justify-content: center;
+}
+
+.form-gerar_remessas > input::placeholder{
+    height: 19px;
+    width: 67px;
+    left: 653px;
+    top: 166px;
+    border-radius: undefinedpx;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #3333334D;
+}
+.form-gerar_remessas .btn-geral{
+    width:600px;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right:10px;  
+}
+.btn-remessa,.btn-retorno{
+    height: 40px;
+    width: 120px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.form-gerar_remessas .contrato::placeholder{
+    text-align: start;
+}
+
+.form-gerar_remessas select{
+    height: 30px;
+    width: 100px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    background: #E9E9E9;
+    border:none;
+    outline: 0;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #3333334D;
+}
+.form-gerar_remessas  .label-curso{
+    padding-left: 18px;
+}
+
+
+.tabela-gerar_remessas{
+    color: #333333;
+    height: 140px;
+    width: 946px;
+    border-radius: 10px;
+    margin:0 auto;
+    background: #FFFFFF;
+    border: 1px solid #33333380;
+    margin-top:100px;
+    overflow: scroll;
+    
+}
+
+.tabela-gerar_remessas tr:nth-child(even){
+    background-color:#C4C4C44D;
+
+}
+
+.tabela-gerar_remessas .checkbox{
+    display: none;
+}
+
+.tabela-gerar_remessas .checkbox + .label-check:before{
+    content:'';
+    width:27px;
+    height: 27px;
+    display: inline-block;
+    border:3px solid white;
+    background-color:#bbbbbb;
+}
+
+.tabela-gerar_remessas .checkbox:checked + .label-check:before{
+    content:'';
+    width:27px;
+    height: 27px;
+    display: inline-block;
+    background: #33333380;
+
+}
+
+
+.tabela-gerar_remessas .caixa{
+    display: none;
+}
+.tabela-gerar_remessas .caixa + .label-caixa:before{
+    content:'';
+    width:27px;
+    height: 27px;
+    display: inline-block;
+    border:3px solid #33333380;
+    background-color:white;
+    cursor: pointer;
+}
+
+.tabela-gerar_remessas .caixa:checked + .label-caixa:before{
+    content:'';
+    width:27px;
+    height: 27px;
+    display: inline-block;
+    background-color:#33333380;
+    cursor: pointer;
+}    
+
+
+
+
+.tabela-gerar_remessas::-webkit-scrollbar{
+    overflow: hidden;
+    border: none;
+    width: 0px;
+}  
+
+.tabela-gerar_remessas .tr-colunas{
+    height: 30px;
+    width: 420px;
+    left: 575px;
+    top: 379px;
+    border-radius: 10px;
+    background: #BBBBBB;
+}    
+
+.tabela-gerar_remessas th,td{
+    text-align: center;
+}
+
+.tabela-gerar_remessas td{
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #333333;
+
+    /* text-align: left; */
+}
+.tabela-gerar_remessas th{
+    height: 19px;
+    width: 41px;
+    left: 625px;
+    top: 386px;
+    border-radius: nullpx;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+
+}
+
+.tabela-gerar_remessas .tr-colunas th:nth-child(1){
+    border-top-left-radius: 10px;
+   
+}
+.tabela-gerar_remessas > .tr-colunas > th:nth-child(6){
+    border-top-right-radius: 10px;
+   
+}

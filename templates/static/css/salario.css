@@ -1,0 +1,34 @@
+.form-salario{
+    height: 139px;
+    width: 500px;
+    border-radius: 7px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 20px 0px #00000026;
+    margin: 55px auto;
+    padding:30px;
+}
+
+.form-salario .format-salario{
+    display: flex;
+    justify-content: center;
+}
+
+.format-label-salario{
+    display: flex;
+    justify-content: left;
+    padding-left: 50px;
+}
+
+.form-salario .label-span  span{
+    color:red;
+}
+
+.padding-data > input:nth-child(1n){
+    margin-left:5px;
+}
+
+ .btn-salario{
+    width:516px;
+    justify-content: end;
+    margin-right: 14px;
+}

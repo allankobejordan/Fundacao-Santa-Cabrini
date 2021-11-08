@@ -1,0 +1,47 @@
+{% extends 'base.html'%}
+{% load static %}
+
+{%block curso%}
+     <div class="form-curso my-5 py-3" >
+              <form>
+                  <div class="form-row py-3">
+                    <label for="name" class="col-3">Nome do Curso:</label>
+                    <input type="text" class="col-9">
+                  </div>
+
+                  <div class="form-row py-3">
+                    <label for="name" class=" insti col-3">Nome da Instituição:</label>
+                    <input type="text" class="col-9">
+                  </div>
+
+                   <div class="form-row py-3">
+                    <label for="name" class="obri col-4">Data de início/término<span> *</span></label>
+                  </div>
+                  <div class="form-row cadastro-elementos py-1">
+                    <input type="text" class="col-1" placeholder="DD">
+                    <input type="text" class="col-1" placeholder="MM">
+                    <input type="text" class="col-2" placeholder="AAAA">
+                    <div class="col-1"><hr></div>
+                    <input type="text" class="col-1" placeholder="DD">
+                    <input type="text" class="col-1" placeholder="MM">
+                    <input type="text" class="col-2" placeholder="AAAA">
+                  </div>
+                   <div class="form-row py-3">
+                    <label for="name" class="col-3">Carga Hoária:</label>
+                    <input type="text" class="col-2">
+                    <label for="name" class="col-3 px-4" >Bolsa Auxilio:</label>
+                    <input type="text" class="col-2">
+                   </div> 
+                   
+                  <div class="botao-procurar botoes-form-apenados botoes-curso">
+                      <button type="submit" class="btn btn-novo"> <img  class="" src="{% static 'icon/novo.svg' %}"></button>
+                      <button type="submit" class="btn btn-procurar"> <img  class="" src="{% static 'icon/icon-procurar.svg' %}"></button>
+                  </div>
+                  </div>
+                   
+                  </div>
+                 
+                </form>
+           </div>             
+
+{%endblock%}

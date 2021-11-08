@@ -1,0 +1,135 @@
+{%extends 'base.html'%}
+{%load static%}
+
+{%block folha%}
+       <div class="form-folha">
+              <form>
+                    <div class="form-row">
+                        <label class="label-span col-1">Ano</label>
+                        <input class="col-2" type="text" placeholder="AAAA">  
+                        <label class="label-span col-1">Mês</label>
+                          <select class="form-select col-3" aria-label="Default select example">
+                            <option selected></option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                        <label class="label-span col-2 label-acao">Status</label>
+                        <select class="form-select col-3" aria-label="Default select example">
+                            <option selected></option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+
+                    </div>
+                     <div class="form-row  mt-3">
+                        <label class="label-span col-3">Tipo de Folha</label>
+                         <select class="form-select col-4" aria-label="Default select example">
+                            <option selected></option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                        <label class="label-span col-2 label-curso">Curso</label>
+                          <select class="form-select col-3" aria-label="Default select example">
+                            <option selected></option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>       
+                    </div>
+                    <div class="form-row padding-data py-3">
+                        <label class="col-3">Tipo de Contrato</label>
+                          <select class="form-select col-4" aria-label="Default select example">
+                            <option selected></option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>       
+                    </div>
+
+                    <div class="form-row  ">
+                        <label class="col-2">Empresa</label>
+                          <select class="form-select col-8" aria-label="Default select example">
+                            <option selected></option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>       
+                    </div>
+                    
+                    
+                 
+                    
+                </form>
+                 <div class="botao-procurar btn-indice btn-salario btn-folha">
+                      <button type="submit" class="btn btn-novo"> <img  class="" src="{% static 'icon/novo.svg' %}"></button>
+                      <button type="submit" class="btn btn-procurar"> <img  class="" src="{% static 'icon/icon-procurar.svg' %}"></button>
+                  </div>
+        </div>
+
+                 
+                   <div class="tabela-folha">
+                        <table class="table">
+                            <thead class="tr-colunas">
+                                <tr>
+                                <th scope="col">N° da Folha</th>
+                                <th scope="col">Ano</th>
+                                <th scope="col">Mês</th>
+                                <th scope="col">Tipo de Folha</th>
+                                <th scope="col">Status</th>
+                                <th scope="col">Contrato</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                <td scope="row">0</td>
+                                <td>AAAA</td>
+                                <td>MM</td>
+                                <td>Default</td>
+                                <td>Incompleta</td>
+                                <td>00/000 FSC</td>
+                                </tr>
+
+                                <tr>
+                                <td scope="row">0</td>
+                                <td>AAAA</td>
+                                <td>MM</td>
+                                <td>Default</td>
+                                <td>Incompleta</td>
+                                <td>00/000 FSC</td>
+                                </tr>
+
+                                <tr>
+                                <td scope="row">0</td>
+                                <td>AAAA</td>
+                                <td>MM</td>
+                                <td>Default</td>
+                                <td>Finalizada</td>
+                                <td>00/000 FSC</td>
+                                </tr>
+
+                                <tr>
+                                <td scope="row">0</td>
+                                <td>AAAA</td>
+                                <td>MM</td>
+                                <td>Default</td>
+                                <td>Finalizada</td>
+                                <td>00/000 FSC</td>
+                                </tr>
+
+                                <tr>
+                                <td scope="row">0</td>
+                                <td>AAAA</td>
+                                <td>MM</td>
+                                <td>Default</td>
+                                <td>Finalizada</td>
+                                <td>00/000 FSC</td>
+                                </tr>
+
+                              
+                            </tbody>
+                        </table>
+                 </div>           
+{%endblock%}

@@ -1,0 +1,34 @@
+.navbar{
+    border-bottom: 1px solid #AAAAAA;
+   
+
+}
+.nav-conteudo{
+    
+    display: flex;
+    justify-content: space-between;
+    height:65px;
+    width: 1366px;
+}
+
+.nav-conteudo .nav-list {
+    display: flex;
+    align-items: center;
+    padding-left:40px;
+    color:#444444;
+    font-weight: bold;
+    margin:0px;
+    
+}
+.nav-conteudo .nav-list li:nth-child(1){
+    list-style: none;
+    font-size: 18px;
+}
+
+.nav-conteudo img{
+    display:flex;
+    align-items: center;
+}
+
+
+

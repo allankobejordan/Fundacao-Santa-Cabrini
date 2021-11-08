@@ -1,0 +1,117 @@
+    {% load static %}
+
+   <div class="navbar-nav  navbar-novo bg-gradient-primary sidebar sidebar-dark accordion fixed-top" id="accordionSidebar">
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" style="margin-top: 0px;" href="index.html">
+                <div class="sidebar-brand-icon">
+                    <img src="{% static 'icon/logo.svg' %}" alt="" class="logo">
+                </div>
+              
+            </a>
+            
+
+            <div class="input-group">
+                <div class="input-group-append button-lupa">
+                    <button class="btn " type="button">
+                        {% comment %} <i class='bx bx-search' ></i> {% endcomment %}
+                         <img src="{% static 'icon/pesquisar.svg' %}"
+                    </button>
+                </div>
+                <input type="text" class="form-control border-0 small format-input-search" placeholder="Pesquisar..." aria-label="Search" aria-describedby="basic-addon2">
+                    
+            </div>            
+                
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="{% url 'index'%}">
+                   <img  class="px-1" src="{% static 'icon/home.svg' %}">
+                   
+                    <span>Início</span></a>
+            </li>
+          
+
+            <!-- Nav Item - Pages Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseCadastro"
+                    aria-expanded="true" aria-controls="collapseCadastro">
+                    <img  class="px-1" src="{% static 'icon/cadastro-icon.svg' %}">
+                    <span>Cadastro</span>
+                </a>
+                <div id="collapseCadastro" class="collapse  my-2" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner  rounded">
+                        <a class="collapse-item" href="{% url 'empresas'%}">Empresa</a>
+                        <a class="collapse-item" href="{% url 'apenado'%}">Apenado</a>
+                        <a class="collapse-item" href="{% url 'curso'%}">Curso</a>
+                        <a class="collapse-item" href="{% url 'indice'%}">Índice</a>
+                        <a class="collapse-item" href="{% url 'salario'%}">Salário</a>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Nav Item - Utilities Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'auditoria'%}">
+                    
+                    <img  class="px-1" src="{% static 'icon/auditoria.svg' %}">
+                    <span>Auditoria</span></a>
+            </li>
+
+           
+
+            <!-- Nav Item - Pages Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="{% url 'folha_pagamento'%}">
+                    <img  class="px-1" src="{% static 'icon/folha-de-pagamento.svg' %}">
+                    <span>Folha de Pagamento</span>
+                </a>
+                
+            </li>
+
+            <!-- Nav Item - Charts -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePagamento"
+                    aria-expanded="true" aria-controls="collapsePagamento">
+                    
+                    <img  class="px-1" src="{% static 'icon/pagamento.svg' %}">
+                    <span>Pagamento</span>
+                </a>
+                <div id="collapsePagamento" class="collapse my-2 pagamento-nav" aria-labelledby="headingUtilities"
+                    data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="{%url 'recebimento'%}">Recebimento de contratantes</a>
+                        <a class="collapse-item" href="{%url 'valorReceber'%}">Valor a Receber</a>
+                        <a class="collapse-item" href="{%url 'salarios_pagos'%}">Informar Salários Pagos</a>
+                        <a class="collapse-item" href="{%url 'gerenciar_retencoes'%}">Gerenciar Retenções</a>
+                        <a class="collapse-item" href="{%url 'gerar_remessas'%}">Gerar Remessas</a>
+                        <a class="collapse-item" href="{%url 'peculio'%}">Pecúlio</a>
+                        <a class="collapse-item" href="{%url 'ordem_pagamento'%}">Ordem de Pagamento</a>
+                    </div>
+                </div>
+            </li>
+            
+
+            <!-- Nav Item - Tables -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseConsulta"
+                    aria-expanded="true" aria-controls="collapseConsulta">
+                    
+                    <img  class="px-1" src="{% static 'icon/consulta.svg' %}">
+                    <span>Consulta</span>
+                </a>
+                <div id="collapseConsulta" class="collapse my-2" aria-labelledby="headingUtilities"
+                    data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="{%url 'beneficiarios'%}">Beneficiários</a>
+                        <a class="collapse-item" href="{%url 'classificacoes'%}">Classificações</a>
+                        <a class="collapse-item" href="{%url 'dias_remidos'%}">Dias Remidos</a>
+                    </div>
+                </div>
+            </li>
+            <div class="menu-usuario">
+                <ul>
+                    <li><img src="{% static 'icon/icon-user.svg' %}"></li>
+                    <li><span>Vinicius Alves</span></li>
+                    <li><img src="{% static 'icon/icon-logout.svg' %}" class="flip-img"></li>
+                </u>
+            </div>
+        </div>

@@ -1,0 +1,41 @@
+{% extends 'base.html'%}
+{% load static%}
+
+{%block recebimento%}
+   <div class="form-recebimento">
+              <form>
+                    <div class="form-row">
+                      <label class="col-5">Data de Ínicio/Término<span>*</span></label>                   
+                    </div>
+
+                    <div class="form-row padding-data py-3">
+                        <input type="text" class="col-1" placeholder="DD">
+                        <input type="text" class="col-1" placeholder="MM">
+                        <input type="text" class="col-2" placeholder="AAAA">
+                        <div class="col-1"><hr></div>
+                        <input type="text" class="col-1" placeholder="DD">
+                        <input type="text" class="col-1" placeholder="MM">
+                        <input type="text" class="col-2" placeholder="AAAA">
+                    
+                    </div>
+
+                      <div class="form-row padding-empresa">
+                        <label class="label-span col-2">Empresa</label>
+                          <select class="form-select col-8 " aria-label="Default select example">
+                            <option selected></option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>       
+                    </div>
+                              
+                </form>
+                 <div class="botao-procurar btn-indice btn-salario btn-recebimento">
+                      <button type="submit" class="btn btn-novo"> <img  class="" src="{% static 'icon/novo.svg' %}"></button>
+                      <button type="submit" class="btn btn-procurar"> <img  class="" src="{% static 'icon/icon-procurar.svg' %}"></button>
+                  </div>
+        </div>
+
+                 
+            
+{%endblock%}

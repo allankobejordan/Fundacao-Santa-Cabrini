@@ -1,0 +1,265 @@
+.form-peculio{
+    height: 250px;
+    width: 550px;
+    border-radius: 7px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 20px 0px #00000026;
+    margin: 0 auto;
+    padding:23px;
+    
+} 
+
+
+.form-peculio input{
+    color:black;
+}
+
+.form-peculio ::placeholder{
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #3333334D;
+
+}
+
+.form-peculio label,input,select{
+    display: flex;
+    
+}
+
+.form-peculio .form-row >  label{
+    margin:0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.form-peculio label{
+    color: #333333;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 53px;
+    border-radius: nullpx;
+    display: flex;
+    align-items: end;
+
+}
+
+.form-peculio .label-contrato{
+    display: flex;
+    justify-content: center;
+}
+.form-peculio .n-folha label{
+    display: flex;
+    padding-right: 10px;
+    position:relative;
+    top:5px;
+   
+}
+.form-peculio .n-folha label:nth-child(3){
+    display: flex;
+    justify-content: center;
+}
+.form-peculio .segunda-linha label{
+    margin:auto;
+    display: flex;
+    justify-content: center;
+}
+
+.form-peculio .terceira-linha label:nth-child(3){
+    margin:auto;
+    display: flex;
+    justify-content: center;
+}
+.form-peculio .terceira-linha label:nth-child(1){
+    margin:auto;
+    display: flex;
+}
+.form-peculio label > span{
+    color:red;
+}
+.form-peculio .label-acao{
+    justify-content: center;
+}
+
+.form-peculio > input::placeholder{
+    height: 19px;
+    width: 67px;
+    left: 653px;
+    top: 166px;
+    border-radius: undefinedpx;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #3333334D;
+}
+.form-peculio .btn-geral{
+    width:550px;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right:20px;  
+}
+
+.form-peculio .contrato::placeholder{
+    text-align: start;
+}
+
+.form-peculio select{
+    height: 30px;
+    width: 100px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    background: #E9E9E9;
+    border:none;
+    outline: 0;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #3333334D;
+}
+.form-peculio  .label-curso{
+    padding-left: 18px;
+}
+
+
+.tabela-peculio{
+    color: #333333;
+    height: 140px;
+    width: 946px;
+    border-radius: 10px;
+    margin:0 auto;
+    background: #FFFFFF;
+    border: 1px solid #33333380;
+    margin-top:100px;
+    overflow: scroll;
+    
+}
+
+.tabela-peculio tr:nth-child(even){
+    background-color:#C4C4C44D;
+
+}
+
+.tabela-peculio .checkbox{
+    display: none;
+}
+
+.tabela-peculio .checkbox + .label-check:before{
+    content:'';
+    width:27px;
+    height: 27px;
+    display: inline-block;
+    border:3px solid white;
+    background-color:#bbbbbb;
+}
+
+.tabela-peculio .checkbox:checked + .label-check:before{
+    content:'';
+    width:27px;
+    height: 27px;
+    display: inline-block;
+    background: #33333380;
+
+}
+
+
+.tabela-peculio .caixa{
+    display: none;
+}
+.tabela-peculio .caixa + .label-caixa:before{
+    content:'';
+    width:27px;
+    height: 27px;
+    display: inline-block;
+    border:3px solid #33333380;
+    background-color:white;
+    cursor: pointer;
+}
+
+.tabela-peculio .caixa:checked + .label-caixa:before{
+    content:'';
+    width:27px;
+    height: 27px;
+    display: inline-block;
+    background-color:#33333380;
+    cursor: pointer;
+}    
+
+
+
+
+.tabela-peculio::-webkit-scrollbar{
+    overflow: hidden;
+    border: none;
+    width: 0px;
+}  
+
+.tabela-peculio .tr-colunas{
+    height: 30px;
+    width: 420px;
+    left: 575px;
+    top: 379px;
+    border-radius: 10px;
+    background: #BBBBBB;
+}    
+
+.tabela-peculio th,td{
+    text-align: center;
+}
+
+.tabela-peculio td{
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #333333;
+
+    /* text-align: left; */
+}
+.tabela-peculio th{
+    height: 19px;
+    width: 41px;
+    left: 625px;
+    top: 386px;
+    border-radius: nullpx;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+
+}
+
+.tabela-peculio .tr-colunas th:nth-child(1){
+    border-top-left-radius: 10px;
+   
+}
+.tabela-peculio > .tr-colunas > th:nth-child(6){
+    border-top-right-radius: 10px;
+   
+}

@@ -1,0 +1,91 @@
+{%extends 'base.html'%}
+{%load static%}
+
+{%block gerar_remessas%}
+      <div class="form-gerar_remessas">
+              <form>
+                <div class="form-row d-flex justify-content-center my-3">
+                        <label class="col-1  d-flex justify-content-start" >Ano</label>                   
+                        <input type="text" class="col-2" placeholder="AAAA">                 
+                        <label class="col-1">Mês</label>                   
+                          <select class="form-select col-2" aria-label="Default select example">
+                            <option selected=""></option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>               
+                        <label class="col-2">Status</label>                   
+                          <select class="form-select col-2" aria-label="Default select example">
+                            <option selected=""></option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>                           
+                    </div>
+                 
+                 <div class="form-row d-flex justify-content-center my-3">
+                        <label class="col-3 d-flex justify-content-start">Tipo de folha</label>                   
+                         <select class="form-select col-3" aria-label="Default select example">
+                            <option selected=""></option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>       
+                                           
+                        <label class="col-1">curso</label>                   
+                          <select class="form-select col-3" aria-label="Default select example">
+                            <option selected=""></option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>                                 
+                    </div>
+                    
+                 
+                    
+                </form>
+                 <div class=" btn-geral botao-procurar btn-indice btn-salario btn-folha btn-valor-receber">
+                      <button type="submit" class="btn btn-novo btn-remessa">Gerar Remessa </button>
+                      <button type="submit" class="btn btn-procurar btn-retorno">Upload Retorno</button>
+                  </div>
+        </div>
+
+                 
+                   <div class="tabela-gerar_remessas">
+                        <table class="table">
+                            <thead class="tr-colunas">
+                                <tr >
+                                  <th scope="col">Ano</th>
+                                  <th scope="col">Mês</th>
+                                  <th scope="col">Tipo de Folha</th>
+                                  <th scope="col">N° da Folha</th>
+                                  <th scope="col">Contrato</th>
+                                  <th scope="col">Status</th>
+                                  <th scope="col">Curso</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                <td scope="row">02/2019</td>
+                                <td>02</td>
+                                <td>01</td>
+                                <td>02</td>
+                                <td>087/2016</td>
+                                <td>Finalizada</td>
+                                <td>-</td>
+                                </tr>
+                                
+                                <tr>
+                                <td scope="row">02/2019</td>
+                                <td>02</td>
+                                <td>01</td>
+                                <td>02</td>
+                                <td>087/2016</td>
+                                <td>Finalizada</td>
+                                <td>-</td>
+                                </tr>
+                               
+                            </tbody>
+                        </table>
+                 </div>
+{%endblock%}

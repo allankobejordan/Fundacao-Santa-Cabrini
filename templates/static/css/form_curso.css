@@ -1,0 +1,73 @@
+.form-curso{
+    height: 330px;
+    width: 590px;
+    border-radius: 7px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 20px 0px #00000026;
+    margin:70px auto ;
+    padding:35px;
+}
+
+.form-curso label{
+    height: 19px;
+    width: 105px;  
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: flex;
+}
+
+.form-curso label:nth-child(2){
+    padding-left: 10px;
+}
+
+.form-curso input{
+    height: 30px;
+    width: 330px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    background: #E9E9E9;
+    border-radius: nullpx;  
+    border:none;
+    height: 30px;
+    outline: 0;
+    
+}
+
+.form-curso input::placeholder{
+height: 25px;
+border-radius: nullpx;
+font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: center;
+color: #00000033;
+
+}
+
+.obri span{
+    color:red;
+    padding-left: 5px;
+}
+
+.form-row > [class*="insti"] {
+    padding-right: 5px;
+    padding-left: 0px;
+}
+
+.cadastro-elementos input:nth-child(1n){
+    margin-left: 5px;
+    
+}
+
+.botoes-curso{
+    width:590px;
+}

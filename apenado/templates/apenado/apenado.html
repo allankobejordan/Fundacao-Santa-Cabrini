@@ -1,0 +1,62 @@
+{% extends 'base.html'%}
+{% load static%}
+
+
+{%block apenado %}
+       <div class="form-apenado">
+              <form>
+                  <div class="form-row py-3">
+                    <label for="name" class=" label_apenado col-3">Nome Apenado:</label>
+                    <input type="text" class="input_apenado col-9">
+                  </div>
+
+                  <div class="form-row py-3">
+                    <label for="name" class=" label_unidade col-3">Unidade Prisional:</label>
+                    <input type="text" class="input_unidade col-9">
+                  </div>
+
+                   <div class="form-row py-3">
+                    <label for="name" class=" label_contrato col-2">Contrato:</label>
+                    <input type="text" class="input_contrato col-10">
+                  </div>
+
+                   <div class="form-row py-3">
+                    <label for="name" class=" label_contrato col-1">CPF:</label>
+                    <input type="text" class="input_contrato col-2" placeholder="000.000.000-00">
+                    <label for="name" class=" label_contrato col-1" >RG:</label>
+                    <input type="text" class="input_contrato col-2" placeholder="0000000-0">
+                    <label for="name" class=" label_contrato col-3">Tipo de Apenado:</label>
+                    {% comment %} <input type="text" class="input_contrato col-3"> {% endcomment %}
+                    <select class="input_contrato col-3" aria-label="Default select example">
+                        <option selected>Todos</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                  </div>
+                  <div class="form-row py-3">
+                    <label for="name" class=" label_status_apenado col-3">Status Apenado</label>
+                    <select class="input_status_apenado col-3" aria-label="Default select example">
+                        <option selected>Todos</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <label for="name" class=" label_contrato col-3">Beneficiário:</label>
+                    <label class="input_unidades switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" />
+                    <div class="slider round"></div>
+                  </label>
+                  </div>  
+                  <div class="botao-procurar botoes-form-apenados">
+                      <button type="submit" class="btn btn-novo"> <img  class="" src="{% static 'icon/novo.svg' %}"></button>
+                      <button type="submit" class="btn btn-procurar"> <img  class="" src="{% static 'icon/icon-procurar.svg' %}"></button>
+                  </div>
+                  </div>
+                   
+                  </div>
+                 
+                </form>
+           </div>             
+
+{% endblock %}
